@@ -18,8 +18,11 @@ The project is a retailing website for selling exquisite masks
 # Members
 - Hoan Le
 - Ilona Pak
-- Duong Tran
+- Duong Tran (group 4)
 - Ivy Vo
+
+# What we do
+- We will make a website about mask for COVID19
 
 ### Installation
 
