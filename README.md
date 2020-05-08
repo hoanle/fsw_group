@@ -29,6 +29,10 @@ The project should be accessed via a url link, updated later
  - Improve UIs
  - Improve performance
 
+### Tasks
+- Navigation Bar 
+- Footer
+
 License
 ----
 
