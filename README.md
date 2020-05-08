@@ -15,6 +15,12 @@ The project is a retailing website for selling exquisite masks
 # Testing
   - No testing for now
 
+# Members
+- Hoan Le
+- Ilona Pak
+- Duong Tran
+- Ivy Vo
+
 ### Installation
 
 The project should be accessed via a url link, updated later
