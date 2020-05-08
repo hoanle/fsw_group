@@ -22,7 +22,7 @@ The project is a retailing website for selling exquisite masks
 - Ivy Vo
 
 # What we do
-- We will make a website about mask for COVID19
+- We will make a website about mask for COVID19, fun masks
 
 ### Installation
 
