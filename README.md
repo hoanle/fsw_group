@@ -21,6 +21,9 @@ The project is a retailing website for selling exquisite masks
 - Duong Tran
 - Ivy Vo
 
+# What we do
+- We will make a website about mask for COVID19
+
 ### Installation
 
 The project should be accessed via a url link, updated later
