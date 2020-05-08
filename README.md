@@ -16,7 +16,7 @@ The project is a retailing website for selling exquisite masks
   - No testing for now
 
 # Members
-- Hoan Le
+- Hoan Le (Yari)
 - Ilona Pak
 - Duong Tran (group 4)
 - Ivy Vo
