@@ -84,7 +84,7 @@ img {
 }
 
 .nav-link:hover {
-    opacity: 70%;
+    opacity: 85%;
 }
 
 .navbar-light {
@@ -145,7 +145,7 @@ img {
 
 .page-footer {
     background-color: #3a3a28;
-    color: #faf6d4;
+    color: #c7bf7a;
     font-size: 14px;
     font-family: 'Barlow', sans-serif;
 }
@@ -159,6 +159,7 @@ img {
     font-size: 30px;
     display: flex;
     justify-content: center;
+    color: #faf6d4;
 }
 
 .footer-icons>i {
@@ -184,6 +185,10 @@ img {
     color: #ffdb00;
 }
 
+.email-label {
+    color: #faf6d4;
+}
+
 #inputEmail {
     height: 30px;
     font-family: 'Barlow', sans-serif;
@@ -194,6 +199,31 @@ img {
     border-color: #ffdb00;
     box-shadow: 0 0 5px #ffdb00;
 }
+
+.sign-up-btn {
+    background-color: #cc5334;
+    color: #ffdb00;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 25px;
+    float: right;
+    margin-top: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sign-up-btn:focus {
+    border-color: #ffdb00;
+    box-shadow: 0 0 5px #ffdb00;
+    outline: none;
+}
+
+.sign-up-btn:hover {
+    opacity: 85%;
+    cursor: pointer;
+}
+
 
 .footer-copyright {
     background-color: black;
