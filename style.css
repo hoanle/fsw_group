@@ -360,3 +360,14 @@ img {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+.feature-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.feature-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
