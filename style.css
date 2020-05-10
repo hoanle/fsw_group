@@ -1,5 +1,8 @@
 /* Duong css */
 
+body{
+    font-family: 'Barlow',sans-serif;
+}
 .extra-space {
     margin: 5% auto;
 }
@@ -198,7 +201,7 @@ img {
 
 /* Ivy css */
 
-h1 {
+.about h1 {
     font-size: 80px;
     text-transform: uppercase;
     color: #cc5334;
@@ -226,12 +229,12 @@ h1 {
     justify-content: center;
 }
 
-.p-ivy {
+.about-body {
     color: #cc5334;
-    font-size: 35px;
+    font-size: 33px;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: center;
+    
 }
 
 .shop {
@@ -243,16 +246,18 @@ h1 {
     justify-content: center;
 }
 
-.btn-primary {
+.shop-now .btn-primary {
     color: #faf6d4;
     background-color: #cc5334;
     font-size: 35px;
     border-color: transparent;
+    
 }
 
-.btn {
-    font-weight: 900;
+.shop-now .btn {
+    font-weight: 900;    
 }
+
 
 .btn:hover {
     background-color: #7bbbe9;
@@ -260,8 +265,10 @@ h1 {
     font-weight: 900;
 }
 
+
 .carousel-caption {
     bottom: 20%;
+    
 }
 
 .slide, .carousel-inner .carousel-item {
@@ -275,3 +282,7 @@ h1 {
     width: 100%;
     height: 800px;
 }
+
+
+
+
