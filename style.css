@@ -317,3 +317,9 @@ img {
     color: #cc5334;
     font-weight: 900;
 }
+
+.news-img {
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
