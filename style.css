@@ -12,6 +12,7 @@ img {
     height: auto;
 }
 
+
 /* FEATURE SECTION */
 
 .features {
@@ -20,12 +21,13 @@ img {
     padding-bottom: 30px;
 }
 
+
 /* LATEST NEWS */
 
 .latest-news {
     padding-top: 50px;
     padding-bottom: 5%;
-    background-color: #faf6d4; 
+    background-color: #82c685;
 }
 
 .carousel-nav-icon {
@@ -39,7 +41,9 @@ img {
 }
 
 .carousel-item {
-    .col, .col-sm, .col-md {
+    .col,
+    .col-sm,
+    .col-md {
         margin: 8px;
         height: 300px;
         background-size: cover;
@@ -47,9 +51,11 @@ img {
     }
 }
 
+
 /* .card {
     margin: 20px auto;
 } */
+
 
 /* TEAM SECTION */
 
@@ -57,6 +63,8 @@ img {
     width: 120px;
     height: 120px;
     margin-bottom: 10px;
+    border-radius: 50%;
+    border: 3px rgb(255, 250, 230) solid;
 }
 
 .photo-profile img {
@@ -72,6 +80,7 @@ img {
     padding-top: 30px;
     padding-bottom: 50px;
 }
+
 
 /* Iliona csss  */
 
@@ -199,6 +208,7 @@ img {
     opacity: 80%;
 }
 
+
 /* Ivy css */
 
 .about h1 {
@@ -213,7 +223,7 @@ img {
 }
 
 .container-fluid {
-    background-color: #faf6d4;
+    background-color: #82c685;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -271,7 +281,8 @@ img {
     
 }
 
-.slide, .carousel-inner .carousel-item {
+.slide,
+.carousel-inner .carousel-item {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -283,6 +294,45 @@ img {
     height: 800px;
 }
 
+/* TYPOGRAPHY */
 
+.features h3 {
+    font-size: 40px;
+    color: #cc5334;
+    font-weight: 900;
+}
 
+.features p {
+    font-size: 20px;
+    color: #cc5334;
+}
 
+.latest-news h2 {
+    font-size: 60px;
+    color: #fff6a3;
+    font-weight: 900;
+}
+
+.latest-news h3,
+.team h3 {
+    font-size: 40px;
+    color: #cc5334;
+    font-weight: 900;
+}
+
+.latest-news h5 {
+    color: #cc5334;
+    font-weight: 900;
+}
+
+.latest-news p,
+.team p {
+    color: #333;
+    font-size: 15px;
+}
+
+.team h2 {
+    font-size: 60px;
+    color: #cc5334;
+    font-weight: 900;
+}
