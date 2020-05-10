@@ -1,5 +1,8 @@
 /* Duong css */
 
+body{
+    font-family: 'Barlow',sans-serif;
+}
 .extra-space {
     margin: 5% auto;
 }
@@ -98,12 +101,22 @@ img {
     border-color: #ffdb00 !important;
 }
 
-.navbar-left>.nav-item {
-    margin-right: 40px;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
-.fa-shopping-bag {
-    margin-left: 8px;
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item {
+    padding-right: 50px;
+    padding-left: 50px;
+    align-self: center;
 }
 
 .main {
@@ -116,7 +129,20 @@ img {
     margin-bottom: 0px !important;
 }
 
-.main>h1 {
+
+.jumbotron-main {
+    background-image: url(https://i.ibb.co/SnpS1gB/Comp-3.gif); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px; 
+}
+
+.main {
+    text-align: left;
+}
+
+.main > h1 {
     font-weight: 900;
 }
 
@@ -185,7 +211,7 @@ img {
 
 /* Ivy css */
 
-h1 {
+.about h1 {
     font-size: 80px;
     text-transform: uppercase;
     color: #cc5334;
@@ -213,12 +239,12 @@ h1 {
     justify-content: center;
 }
 
-.p-ivy {
+.about-body {
     color: #cc5334;
-    font-size: 35px;
+    font-size: 33px;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: center;
+    
 }
 
 .shop {
@@ -230,16 +256,18 @@ h1 {
     justify-content: center;
 }
 
-.btn-primary {
+.shop-now .btn-primary {
     color: #faf6d4;
     background-color: #cc5334;
     font-size: 35px;
     border-color: transparent;
+    
 }
 
-.btn {
-    font-weight: 900;
+.shop-now .btn {
+    font-weight: 900;    
 }
+
 
 .btn:hover {
     background-color: #7bbbe9;
@@ -247,8 +275,10 @@ h1 {
     font-weight: 900;
 }
 
+
 .carousel-caption {
     bottom: 20%;
+    
 }
 
 .slide,
@@ -263,7 +293,6 @@ h1 {
     width: 100%;
     height: 800px;
 }
-
 
 /* TYPOGRAPHY */
 
