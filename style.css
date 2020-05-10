@@ -320,6 +320,15 @@ img {
     font-weight: 900;
 }
 
+.flex-center {
+    justify-content: center;
+    display: flex;
+}
+.column-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 .news-img {
     height: 200px;
     overflow: hidden;
