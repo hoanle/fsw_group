@@ -1,7 +1,81 @@
+/* Duong css */
+
+.extra-space {
+    margin: 5% auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* FEATURE SECTION */
+
+.features {
+    background-color: #f7c959;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* LATEST NEWS */
+
+.latest-news {
+    padding-top: 50px;
+    padding-bottom: 5%;
+    background-color: #faf6d4; 
+}
+
+.carousel-nav-icon {
+    height: 35px;
+    width: 35px;
+    fill: white;
+}
+
+.carousel-nav-icon:hover {
+    fill: grey;
+}
+
+.carousel-item {
+    .col, .col-sm, .col-md {
+        margin: 8px;
+        height: 300px;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+/* .card {
+    margin: 20px auto;
+} */
+
+/* TEAM SECTION */
+
+.photo-profile {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.photo-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.team {
+    background-color: #efd4e4;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* Iliona csss  */
+
 .nav-link {
     color: #ffdb00 !important;
     font-family: 'Barlow', sans-serif !important;
-} 
+}
 
 .nav-link:hover {
     opacity: 70%;
@@ -43,6 +117,7 @@
     margin-bottom: 0px !important;
 }
 
+
 .jumbotron-main {
     background-image: url(https://i.ibb.co/SnpS1gB/Comp-3.gif); 
     background-size: cover; 
@@ -59,7 +134,7 @@
     font-weight: 900;
 }
 
-.main > p {
+.main>p {
     font-weight: 600;
 }
 
@@ -81,26 +156,26 @@
     justify-content: center;
 }
 
-.footer-icons > i {
+.footer-icons>i {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.footer-icons > i:hover {
+.footer-icons>i:hover {
     color: #ffdb00;
     cursor: pointer;
 }
 
-.list-unstyled > li {
+.list-unstyled>li {
     margin-bottom: 15px;
 }
 
-.list-unstyled > li > a {
+.list-unstyled>li>a {
     color: #faf6d4;
     text-decoration: none;
 }
 
-.list-unstyled > li > a:hover {
+.list-unstyled>li>a:hover {
     color: #ffdb00;
 }
 
@@ -119,4 +194,84 @@
     background-color: black;
     font-size: 10px;
     opacity: 80%;
+}
+
+/* Ivy css */
+
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #cc5334;
+    font-weight: 900;
+}
+
+.col {
+    background-color: #faf6d4;
+}
+
+.container-fluid {
+    background-color: #faf6d4;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    background-color: #faf6d4;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+.p-ivy {
+    color: #cc5334;
+    font-size: 35px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.shop {
+    font-weight: 900;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    color: #faf6d4;
+    background-color: #cc5334;
+    font-size: 35px;
+    border-color: transparent;
+}
+
+.btn {
+    font-weight: 900;
+}
+
+.btn:hover {
+    background-color: #7bbbe9;
+    border-color: transparent;
+    font-weight: 900;
+}
+
+.carousel-caption {
+    bottom: 20%;
+}
+
+.slide, .carousel-inner .carousel-item {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.carousel-item-img {
+    width: 100%;
+    height: 800px;
 }
