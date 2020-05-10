@@ -1,8 +1,9 @@
 /* Duong css */
 
-body{
-    font-family: 'Barlow',sans-serif;
+body {
+    font-family: 'Barlow', sans-serif;
 }
+
 .extra-space {
     margin: 5% auto;
 }
@@ -12,7 +13,6 @@ img {
     height: auto;
 }
 
-
 /* FEATURE SECTION */
 
 .features {
@@ -20,7 +20,6 @@ img {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 
 /* LATEST NEWS */
 
@@ -41,9 +40,7 @@ img {
 }
 
 .carousel-item {
-    .col,
-    .col-sm,
-    .col-md {
+    .col, .col-sm, .col-md {
         margin: 8px;
         height: 300px;
         background-size: cover;
@@ -51,11 +48,9 @@ img {
     }
 }
 
-
 /* .card {
     margin: 20px auto;
 } */
-
 
 /* TEAM SECTION */
 
@@ -80,7 +75,6 @@ img {
     padding-top: 30px;
     padding-bottom: 50px;
 }
-
 
 /* Iliona csss  */
 
@@ -129,20 +123,19 @@ img {
     margin-bottom: 0px !important;
 }
 
-
 .jumbotron-main {
-    background-image: url(https://i.ibb.co/SnpS1gB/Comp-3.gif); 
-    background-size: cover; 
+    background-image: url(https://i.ibb.co/SnpS1gB/Comp-3.gif);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 700px; 
+    min-height: 700px;
 }
 
 .main {
     text-align: left;
 }
 
-.main > h1 {
+.main>h1 {
     font-weight: 900;
 }
 
@@ -208,7 +201,6 @@ img {
     opacity: 80%;
 }
 
-
 /* Ivy css */
 
 .about h1 {
@@ -244,7 +236,6 @@ img {
     font-size: 33px;
     margin-left: 10%;
     margin-right: 10%;
-    
 }
 
 .shop {
@@ -256,18 +247,13 @@ img {
     justify-content: center;
 }
 
-.shop-now .btn-primary {
+.shop-btn {
     color: #faf6d4;
     background-color: #cc5334;
     font-size: 35px;
     border-color: transparent;
-    
+    font-weight: 900;
 }
-
-.shop-now .btn {
-    font-weight: 900;    
-}
-
 
 .btn:hover {
     background-color: #7bbbe9;
@@ -275,14 +261,11 @@ img {
     font-weight: 900;
 }
 
-
 .carousel-caption {
     bottom: 20%;
-    
 }
 
-.slide,
-.carousel-inner .carousel-item {
+.slide, .carousel-inner .carousel-item {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -313,8 +296,7 @@ img {
     font-weight: 900;
 }
 
-.latest-news h3,
-.team h3 {
+.latest-news h3, .team h3 {
     font-size: 40px;
     color: #cc5334;
     font-weight: 900;
@@ -325,8 +307,7 @@ img {
     font-weight: 900;
 }
 
-.latest-news p,
-.team p {
+.latest-news p, .team p {
     color: #333;
     font-size: 15px;
 }
