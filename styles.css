@@ -1,9 +1,10 @@
 body{
     font-family: 'Barlow',sans-serif;
 }
+
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     width:100%;
     background-color:#cc5334;
     color: #f7c959;
@@ -12,14 +13,30 @@ nav{
     position: fixed;
 }
 
+.nav-link{
+    color:#f7c959;
+    font-size:25px;
+}
 
-.navbar-nav{
+.nav-link:hover{
+    color: #7bbbe9;
+}
+.navbar{
     display:flex;
     flex-direction:row;
     align-items: center;
     
   }
-
+.landing{
+    margin-top: 80px;
+    min-height: 900px;
+    background-image: url(https://i.ibb.co/ChtQJJf/201603211209-0001-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
 h1 {
    
     font-size: 80px;
@@ -96,12 +113,31 @@ p{
     font-weight: 900;
 }
 
-.to-deelay{
-    animation-delay: 0.5s;
 
-}
+
 
 .carousel-caption{
 bottom: 20%;
 }
 
+.slide,
+.carousel-inner
+.carousel-item{
+    width:100%;
+    height: auto;
+    object-fit:contain;
+    object-position: center;
+}
+
+
+.carousel-item-img{
+    width: 100%;
+    height: 800px;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+
+}
