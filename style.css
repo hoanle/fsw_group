@@ -92,12 +92,22 @@ img {
     border-color: #ffdb00 !important;
 }
 
-.navbar-left>.nav-item {
-    margin-right: 40px;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
-.fa-shopping-bag {
-    margin-left: 8px;
+.navbar-brand {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item {
+    padding-right: 50px;
+    padding-left: 50px;
+    align-self: center;
 }
 
 .main {
@@ -110,7 +120,20 @@ img {
     margin-bottom: 0px !important;
 }
 
-.main>h1 {
+
+.jumbotron-main {
+    background-image: url(https://i.ibb.co/SnpS1gB/Comp-3.gif); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px; 
+}
+
+.main {
+    text-align: left;
+}
+
+.main > h1 {
     font-weight: 900;
 }
 
