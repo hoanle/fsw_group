@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <title>Tweeter's Replica </title>
+    <link rel="stylesheet" href="maintweet.css"></link>
+</head>
+<body>
+    <div class="container col-12">
+        <div class="row">
+            
+            <div class="col-md-1 col-sm-0 container-left-most"></div>
+            <div class="col-2 container-side-menu"></div>
+            
+            <div class="col-5 container-tweets">
+                <h1>Home</h1>
+                <textarea type="test" id="tweetArea" placeholder="What's happening?" maxlength=140></textarea>
+                <div id="remainCharacter">0</div>
+                <button onclick="postTweet()">Tweet</button>
+                <div id="contentArea">
+                    <div class="col-1"><img id="userAvatar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/eyes_1f440.png" alt="" srcset="" width=50></div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div id="name">Name</div>
+                            <div id="username">username</div>
+                            <div id="time">time</div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="description">fesfsfsf</div>
+                            <div class="images"><img id="userPhoto" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/eyes_1f440.png"></div>
+                        </div>
+                        <div>
+                            <a href="">Comment</a>
+                            <a href="">Like</a>
+                            <a href="" onclick="postTweet()">Retweet</a>
+                            <a href="">Delete</a>
+
+
+                        </div>
+                        <div id="retweetArea">
+                            <div class="col-1"><img id="userAvatar" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/eyes_1f440.png" alt="" srcset="" width=50></div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <div id="name">Name</div>
+                                    <div id="username">username</div>
+                                    <div id="time">time</div>
+        
+        
+                                </div>
+                                <div class="row">
+                                    <div class="description">fesfsfsf</div>
+                                    <div class="images"><img id="userPhoto" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/socialmedia/apple/237/eyes_1f440.png"></div>
+                                </div>
+                                <div>
+                                    <a href="">Comment</a>
+                                    <button onclick="likeTweet()"><i class="fas fa-heart btn-custom"></i></button>
+                                    <a href="" onclick="reTweet(index)">Retweet</a>
+                                    <a href="" Delete onclick="deleteTweet()"></a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            
+
+            </div>
+        </div>
+            
+        </div>
+        <div class="col-3 container-side-tags"></div>
+        <div class="col-1 container-right-most"></div>
+        
+           
+        
+    </div>
+    
+
+
+    <script src="https://kit.fontawesome.com/c5ed0f55e9.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
